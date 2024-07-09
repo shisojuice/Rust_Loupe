@@ -1,0 +1,35 @@
+body {
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 15px;
+}
+
+button {
+  width: 100px;
+  height: 24px;
+  margin: 1px;
+}
+#my_cursor {
+  outline: red  1px solid;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#mainImg {
+  cursor: none;
+  outline: blue 2px solid;
+  width: 320px;
+  height: 320px;
+}
+#bigImg {
+  outline: red  2px solid;
+  width: 320px;
+  height: 320px;
+}
